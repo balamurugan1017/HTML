@@ -1,0 +1,179 @@
+.navb{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 6, 6);
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 20px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    
+
+}
+li a{
+    text-decoration: none;
+    margin-right:5px;
+    gap:  5px;
+    margin-bottom: 20px;
+    color: rgb(238, 195, 24);
+}
+.logo{
+    color: rgb(238, 195, 24);
+    
+    
+
+}
+.logos{
+    width: 100px;
+    height: 100px;
+}
+.toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(238, 195, 24);
+}
+@media screen and (max-width: 600px) {
+    .ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+   .ul.active{
+    display: flex;
+   }
+   .toggle{
+    display: block;
+   }
+    
+}
+.banner{
+    background-image: url(lithie.jpg);
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+   .bt{
+    
+    border: none;
+    padding: 3px 3px;
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+   }
+   .can{
+    background-color: rgb(6, 6, 6);
+    position: sticky;
+    top: 100px;
+
+    
+
+    
+   }
+   .search-txt
+    {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 6);
+    color: rgb(238, 195, 24);
+
+    
+   }
+   .bt{
+    
+    padding: 5px 5px;
+    color: rgb(238, 195, 24);
+    
+   }
+   .serach-box
+   {
+    width: 100px;
+height: 50px;
+    
+   }
+
+   .vada{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+
+    padding: 10px;
+    text-align: center;
+    color: rgb(238, 195, 24);
+    font-size: 60px;
+    font-style: oblique;
+    justify-content:first baseline;
+}
+.vada p{
+    font-size: 20px;
+    color:rgb(238, 195, 24);
+    font-style: oblique;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.wine-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(6, 6, 6);
+}
+.head{
+
+    text-align: center;
+    color: rgb(238, 195, 24);
+    font-size: 40px;
+    font-style: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.first{
+    color: rgb(238, 195, 24);
+    font-style: oblique;
+}
+.second{
+    color: rgb(238, 195, 24);
+    font-style: oblique;
+}
+.third{
+    color: rgb(238, 195, 24);
+    font-style: oblique;
+    background-color: #000;
+}
+.card{
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fourth{
+    color: rgb(238, 195, 24);
+    font-style: oblique;
+    background-color: black;
+}
+
+   
